@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Marcellus&display=swap');
+
+html,body,header,nav,a,img,ul,li,main,section{
+    margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* NAV BAR STYLE */
+
+#header {
+
+    background-color: white;
+    height: 3em;
+    left: 0;
+    line-height: 1.5em;
+    padding: 0 1.25em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 5%;
+    text-decoration:none ;
+      color: rgba(127	38	167	) ;
+  }
+  .navBar>*{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      list-style: none;
+      margin: 10px 0;
+  }
+  .navBar>ul *{
+    text-decoration: none;
+    font-family: 'Marcellus';
+    
+    color: rgba(127	38	167	);
+  }
+  a.contactButton, a.donateButton{
+      background-color: rgba(127	38	167	);
+      border-radius: 3px;
+      padding: 5px;
+      color: white;
+      text-decoration: none;
+  }
+  /* NAV BAR STYLE */
+
+  
+  /* JOSH'S PAGE START */
+  h1{
+    font-size: 3.5em;
+    color: white;
+    padding-bottom: 5%;
+    border-bottom:3px solid white;
+    font-family:'Marcellus';
+}
+p.giPara{
+    font-size: 1em;
+    color: white;
+    font-family: 'Marcellus';
+}
+#giWrapper{
+    background: url(https://i.postimg.cc/bv3Xr2Gh/cover.png);
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: static;
+    
+}
+.mainSection{
+    margin: 7% 7%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Marcellus';
+}
+.wrapper>section h2{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+div>section{
+    padding: 5%;
+}
+.middleSection{
+    background: rgb(74,36,129);
+background: linear-gradient(180deg, rgba(74,36,129,1) 0%, rgba(170,73,199,1) 59%, rgba(255,255,255,1) 100%);   
+    color: white;
+}
+
+.otherTwo{
+    color:rgba(127	38	167	)  ;
+}
+div>.otherTwo h2{
+    border-bottom: 2px solid rgba(127	38	167	);
+    padding-bottom: 5px;
+}
+
+.sectionImg{
+    padding: 5px;
+} 
+
+/* JOSH PAGE ENDING */
