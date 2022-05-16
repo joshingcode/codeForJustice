@@ -7,6 +7,7 @@ html,body,header,nav,a,img,ul,li,main,section{
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: 'Marcellus';
 }
 
 /* NAV BAR STYLE */
@@ -70,7 +71,7 @@ html,body,header,nav,a,img,ul,li,main,section{
 .headerContainer {
     height: 75vh;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.297), rgba(0, 0, 0, 0.27)), url(Images/heroImage.png);
+    background: url(../images/heroImage.png);
     background-size: cover;
     margin: 4em 4em;
     border-radius: 30px;
@@ -94,7 +95,8 @@ html,body,header,nav,a,img,ul,li,main,section{
 
 .aboutUsHome {
     padding: 96px 50px;
-    background-color: #eaeaea;
+    background: rgb(74,36,129);
+    background: linear-gradient(180deg, rgba(74,36,129,1) 0%, rgba(170,73,199,1) 59%, rgba(255,255,255,1) 100%);  
     margin: 10em 4em;
     border-radius: 30px;
     box-shadow: 0px 10px 10px #251b26;
@@ -143,7 +145,7 @@ html,body,header,nav,a,img,ul,li,main,section{
     border-radius: 20px;
 }
   /* JOSH'S PAGE START */
-  h1{
+h1{
     font-size: 3.5em;
     color: white;
     padding-bottom: 5%;
@@ -203,3 +205,43 @@ div>.otherTwo h2{
 } 
 
 /* JOSH PAGE ENDING */
+
+
+#footer {
+
+    background-color: rgba(127	38	167	);
+    height: 5em;
+    left: 0;
+    line-height: 1.5em;
+    padding: 0 1.25em;
+    
+    top: 0;
+    width: 100%;
+    margin-bottom: 5%;
+    
+  }
+
+  #footer>*{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  /* .navBar>*{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      list-style: none;
+      margin: 10px 0;
+  }
+  .navBar>ul *{
+    text-decoration: none;
+    font-family: 'Marcellus';
+    
+    color: rgba(127	38	167	);
+  }
+  a.contactButton, a.donateButton{
+      background-color: rgba(127	38	167	);
+      border-radius: 3px;
+      padding: 5px;
+      color: white;
+      text-decoration: none;
+  } */
