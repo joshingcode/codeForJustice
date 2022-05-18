@@ -11,17 +11,18 @@ li,
 main,
 section {
     margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Marcellus';
+
 }
 
 /* NAV BAR STYLE */
 
 #header {
-
     background-color: white;
     height: 3em;
     left: 0;
@@ -107,7 +108,8 @@ a.donateButton {
 
 .aboutUsHome {
     padding: 96px 50px;
-    background-color: #eaeaea;
+    background: rgb(74,36,129);
+    background: linear-gradient(180deg, rgba(74,36,129,1) 0%, rgba(170,73,199,1) 59%, rgba(255,255,255,1) 100%);  
     margin: 10em 4em;
     border-radius: 30px;
     box-shadow: 0px 10px 10px #251b26;
@@ -177,7 +179,7 @@ h1 {
     font-family: 'Marcellus';
 }
 
-p.giPara {
+p.giPara{
     font-size: 1em;
     color: white;
     font-family: 'Marcellus';
@@ -315,3 +317,134 @@ div>.otherTwo h2 {
     font-size: 12px;
     text-transform: capitalize;
 }
+
+/* JOSH PAGE ENDING */
+
+
+
+/* MICAH PAGE START (AWARENESS) */
+.awarenessH1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionP1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* banner styling */
+.section-m1 {
+    margin: 40px 0;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../Images/example.png);
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    color: white;
+    font-size: 20px;
+}
+
+#banner h2 {
+    color: white;
+    font-size: 16px;
+}
+
+#banner button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#banner button:hover {
+    background-color: red;
+    color: white;
+}
+
+/* section styling */
+.antihumanContainer {
+    text-align: center;
+}
+
+.antihumanContainer .antihumanDivContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.antihumanContainer .antihumanBox {
+    width: 13%;
+    min-width: 250px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px;
+    transition: 0.2s ease ;
+}
+
+
+
+/* MICAH PAGE ENDING */
+
+#footer {
+
+    background-color: rgba(127	38	167	);
+    height: 5em;
+    left: 0;
+    line-height: 1.5em;
+    padding: 0 1.25em;
+    
+    top: 0;
+    width: 100%;
+    margin-bottom: 5%;
+    
+  }
+
+/*   #footer>*{
+      display: flex;
+      justify-content: space-evenly;
+  } */
+  /* .navBar>*{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      list-style: none;
+      margin: 10px 0;
+  }
+  .navBar>ul *{
+    text-decoration: none;
+    font-family: 'Marcellus';
+    
+    color: rgba(127	38	167	);
+  }
+  a.contactButton, a.donateButton{
+      background-color: rgba(127	38	167	);
+      border-radius: 3px;
+      padding: 5px;
+      color: white;
+      text-decoration: none;
+  } */
+
+
