@@ -9,7 +9,12 @@
     width: 100%;
     margin-bottom: 5%;
     text-decoration:none ;
-      color: rgba(127	38	167	) ;
+    color: rgba(127	38	167	) ;
+  }
+  body{
+    background: linear-gradient(to bottom right ,#7f26a7, #996FD6);
+    color: #F3EAF9;
+    
   }
   .navBar>*{
       display: flex;
@@ -21,7 +26,6 @@
   .navBar>ul *{
     text-decoration: none;
     font-family: 'Marcellus';
-    
     color: rgba(127	38	167	);
   }
   a.contactButton, a.donateButton{
@@ -30,4 +34,31 @@
       padding: 5px;
       color: white;
       text-decoration: none;
+
   }
+.aboutUs{
+    text-align: center;
+    margin-top: 20px;
+    margin: 5em;
+    padding: 1em;
+    border: solid;
+}
+.contentSection {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    margin: 3em;
+    background-color: #F3EAF9;
+    color: #7f26a7;
+}
+.contentSection section.values, .contentSection section.goals{
+    border-left: solid;
+    padding: 2em;
+    background-color: #F3EAF9;
+    
+}
+
+.ourMission,.values,.goals{
+    padding: 2em;
+    text-align: center;
+}
