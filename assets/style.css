@@ -8,12 +8,12 @@ html,body,header,nav,a,img,ul,li,main,section{
   font: inherit;
   vertical-align: baseline;
   font-family: 'Marcellus';
+
 }
 
 /* NAV BAR STYLE */
 
 #header {
-
     background-color: white;
     height: 3em;
     left: 0;
@@ -71,7 +71,8 @@ html,body,header,nav,a,img,ul,li,main,section{
 .headerContainer {
     height: 75vh;
     position: relative;
-    background: url(../images/heroImage.png);
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.297), rgba(0, 0, 0, 0.27)), url(../Images/heroImage.png);
     background-size: cover;
     margin: 4em 4em;
     border-radius: 30px;
@@ -145,13 +146,15 @@ html,body,header,nav,a,img,ul,li,main,section{
     border-radius: 20px;
 }
   /* JOSH'S PAGE START */
-h1{
+
+  /* h1{
     font-size: 3.5em;
     color: white;
     padding-bottom: 5%;
     border-bottom:3px solid white;
     font-family:'Marcellus';
-}
+} */
+
 p.giPara{
     font-size: 1em;
     color: white;
@@ -207,6 +210,93 @@ div>.otherTwo h2{
 /* JOSH PAGE ENDING */
 
 
+
+/* MICAH PAGE START (AWARENESS) */
+.awarenessH1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionP1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* banner styling */
+.section-m1 {
+    margin: 40px 0;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../Images/example.png);
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    color: white;
+    font-size: 20px;
+}
+
+#banner h2 {
+    color: white;
+    font-size: 16px;
+}
+
+#banner button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#banner button:hover {
+    background-color: red;
+    color: white;
+}
+
+/* section styling */
+.antihumanContainer {
+    text-align: center;
+}
+
+.antihumanContainer .antihumanDivContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.antihumanContainer .antihumanBox {
+    width: 13%;
+    min-width: 250px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px;
+    transition: 0.2s ease ;
+}
+
+
+
+/* MICAH PAGE ENDING */
+
 #footer {
 
     background-color: rgba(127	38	167	);
@@ -245,3 +335,4 @@ div>.otherTwo h2{
       color: white;
       text-decoration: none;
   } */
+
