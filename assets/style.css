@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Marcellus&display=swap');
 
-html,body,header,nav,a,img,ul,li,main,section{
+html,
+body,
+header,
+nav,
+a,
+img,
+ul,
+li,
+main,
+section {
     margin: 0;
   padding: 0;
   border: 0;
@@ -23,32 +32,37 @@ html,body,header,nav,a,img,ul,li,main,section{
     top: 0;
     width: 100%;
     margin-bottom: 5%;
-    text-decoration:none ;
-      color: rgba(127	38	167	) ;
-  }
-  .navBar>*{
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row;
-      list-style: none;
-      margin: 10px 0;
-  }
-  .navBar>ul *{
+    text-decoration: none;
+    color: rgba(127 38 167);
+}
+
+.navBar>* {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.navBar>ul * {
     text-decoration: none;
     font-family: 'Marcellus';
-    
-    color: rgba(127	38	167	);
-  }
-  a.contactButton, a.donateButton{
-      background-color: rgba(127	38	167	);
-      border-radius: 3px;
-      padding: 5px;
-      color: white;
-      text-decoration: none;
-  }
-  /* NAV BAR STYLE */
 
-  /* **************************
+    color: rgba(127 38 167);
+}
+
+a.contactButton,
+a.donateButton {
+    background-color: rgba(127 38 167);
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/* NAV BAR STYLE */
+
+/* **************************
         HOME   
 ************************** */
 
@@ -70,8 +84,6 @@ html,body,header,nav,a,img,ul,li,main,section{
 
 .headerContainer {
     height: 75vh;
-    position: relative;
-
     background-image: linear-gradient(rgba(0, 0, 0, 0.297), rgba(0, 0, 0, 0.27)), url(../Images/heroImage.png);
     background-size: cover;
     margin: 4em 4em;
@@ -101,11 +113,23 @@ html,body,header,nav,a,img,ul,li,main,section{
     margin: 10em 4em;
     border-radius: 30px;
     box-shadow: 0px 10px 10px #251b26;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.aboutUsHome img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
 }
 
 .aboutUsHome h2 {
     font-size: 42px;
-    margin-bottom: 48px;
+}
+
+.aboutUsHome p {
+    max-width: 450px;
+    height: auto;
 }
 
 .resourcesHome {
@@ -145,67 +169,154 @@ html,body,header,nav,a,img,ul,li,main,section{
     height: 250px;
     border-radius: 20px;
 }
-  /* JOSH'S PAGE START */
 
-  /* h1{
+/* JOSH'S PAGE START */
+h1 {
     font-size: 3.5em;
     color: white;
     padding-bottom: 5%;
-    border-bottom:3px solid white;
-    font-family:'Marcellus';
-} */
+    border-bottom: 3px solid white;
+    font-family: 'Marcellus';
+}
 
 p.giPara{
     font-size: 1em;
     color: white;
     font-family: 'Marcellus';
 }
-#giWrapper{
+
+#giWrapper {
     background: url(https://i.postimg.cc/bv3Xr2Gh/cover.png);
     height: 75vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: static;
-    
+
 }
-.mainSection{
+
+.mainSection {
     margin: 7% 7%;
     position: absolute;
     display: flex;
     flex-direction: column;
-    
+
 }
-.wrapper{
+
+.wrapper {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     font-family: 'Marcellus';
 }
-.wrapper>section h2{
+
+.wrapper>section h2 {
     border-bottom: 2px solid white;
     padding-bottom: 5px;
 }
-div>section{
+
+div>section {
     padding: 5%;
 }
-.middleSection{
-    background: rgb(74,36,129);
-background: linear-gradient(180deg, rgba(74,36,129,1) 0%, rgba(170,73,199,1) 59%, rgba(255,255,255,1) 100%);   
+
+.middleSection {
+    background: rgb(74, 36, 129);
+    background: linear-gradient(180deg, rgba(74, 36, 129, 1) 0%, rgba(170, 73, 199, 1) 59%, rgba(255, 255, 255, 1) 100%);
     color: white;
 }
 
-.otherTwo{
-    color:rgba(127	38	167	)  ;
+.otherTwo {
+    color: rgba(127 38 167);
 }
-div>.otherTwo h2{
-    border-bottom: 2px solid rgba(127	38	167	);
+
+div>.otherTwo h2 {
+    border-bottom: 2px solid rgba(127 38 167);
     padding-bottom: 5px;
 }
 
-.sectionImg{
+.sectionImg {
     padding: 5px;
-} 
+}
+
+/* JOSH PAGE ENDING */
+
+
+/* 
+*****************************
+        FOOTER 
+***************************** 
+*/
+
+
+.footerContainer {
+    background-color: #6818a5;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.footerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footerContent h3 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 3rem;
+    margin-bottom: 15px;
+}
+
+.footerContent p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footerContent img {
+    width: 100px;
+    height: auto;
+}
+
+.socialLinks {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+
+.socialLinks li {
+    margin: 0 10px;
+}
+
+.socialLinks a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.socialLinks a i {
+    font-size: 30px;
+}
+
+.btmFooter {
+    background-color: #220135;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.btmFooter p {
+    font-family: 'Marcellus';
+    font-size: 12px;
+    text-transform: capitalize;
+}
 
 /* JOSH PAGE ENDING */
 
@@ -311,10 +422,10 @@ div>.otherTwo h2{
     
   }
 
-  #footer>*{
+/*   #footer>*{
       display: flex;
       justify-content: space-evenly;
-  }
+  } */
   /* .navBar>*{
       display: flex;
       justify-content: space-around;
@@ -335,4 +446,5 @@ div>.otherTwo h2{
       color: white;
       text-decoration: none;
   } */
+
 
