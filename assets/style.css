@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Marcellus&display=swap');
 
-html,body,header,nav,a,img,ul,li,main,section {
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-font: inherit;
-vertical-align: baseline;
+html,body,header,nav,a,img,ul,li,main,section{
+    margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Marcellus';
+
 }
 
 /* NAV BAR STYLE */
@@ -69,6 +71,7 @@ vertical-align: baseline;
 .headerContainer {
     height: 75vh;
     position: relative;
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.297), rgba(0, 0, 0, 0.27)), url(../Images/heroImage.png);
     background-size: cover;
     margin: 4em 4em;
@@ -93,7 +96,8 @@ vertical-align: baseline;
 
 .aboutUsHome {
     padding: 96px 50px;
-    background-color: #eaeaea;
+    background: rgb(74,36,129);
+    background: linear-gradient(180deg, rgba(74,36,129,1) 0%, rgba(170,73,199,1) 59%, rgba(255,255,255,1) 100%);  
     margin: 10em 4em;
     border-radius: 30px;
     box-shadow: 0px 10px 10px #251b26;
@@ -142,6 +146,7 @@ vertical-align: baseline;
     border-radius: 20px;
 }
   /* JOSH'S PAGE START */
+
   /* h1{
     font-size: 3.5em;
     color: white;
@@ -203,6 +208,7 @@ div>.otherTwo h2{
 } 
 
 /* JOSH PAGE ENDING */
+
 
 
 /* MICAH PAGE START (AWARENESS) */
@@ -290,3 +296,43 @@ div>.otherTwo h2{
 
 
 /* MICAH PAGE ENDING */
+
+#footer {
+
+    background-color: rgba(127	38	167	);
+    height: 5em;
+    left: 0;
+    line-height: 1.5em;
+    padding: 0 1.25em;
+    
+    top: 0;
+    width: 100%;
+    margin-bottom: 5%;
+    
+  }
+
+  #footer>*{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  /* .navBar>*{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      list-style: none;
+      margin: 10px 0;
+  }
+  .navBar>ul *{
+    text-decoration: none;
+    font-family: 'Marcellus';
+    
+    color: rgba(127	38	167	);
+  }
+  a.contactButton, a.donateButton{
+      background-color: rgba(127	38	167	);
+      border-radius: 3px;
+      padding: 5px;
+      color: white;
+      text-decoration: none;
+  } */
+
