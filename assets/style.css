@@ -14,7 +14,7 @@ footer {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: inherit;
   font: inherit;
   vertical-align: baseline;
   font-family: "Marcellus";
@@ -24,10 +24,10 @@ footer {
 
 #header {
   background-color: white;
-  height: 3em;
+  height: 2em;
   left: 0;
   line-height: 1.5em;
-  padding: 0 1.25em;
+  padding: .5em 1.25em;
   position: fixed;
   top: 0;
   width: 100%;
@@ -62,25 +62,9 @@ a.donateButton {
         HOME   
 ************************** */
 
-/* .home {
-  background-color: #f9f9f9;
-} */
-
-/* .titleHero {
-  font-size: 75px;
-  margin-bottom: 32px;
-}
-
-.pHero {
-  font-size: 19px;
-  line-height: 1.6;
-  margin-bottom: 48px;
-  font-style: oblique;
-} */
-
- .headerContainer {
+.headerContainer {
   height: 75vh;
- 
+
   background: url(../images/heroImage.png);
   background-size: cover;
   margin: 2em 4em;
@@ -90,7 +74,7 @@ a.donateButton {
 
 .mainContainer {
   width: 1200px;
-  
+
   left: 50%;
   top: 50%;
   /* transform: translate(-50%, -50%); */
@@ -115,9 +99,9 @@ a.donateButton {
   /* border-radius: 30px; */
   box-shadow: 0px 10px 10px #251b26;
 }
-section.aboutUsHome>img{
-    width: 45%;
-    margin-left: 25%;
+section.aboutUsHome > img {
+  width: 45%;
+  margin-left: 25%;
 }
 .aboutUsHome h2 {
   font-size: 42px;
@@ -162,17 +146,13 @@ section.aboutUsHome>img{
   /* border-radius: 20px; */
 }
 
-
-
-
-
-
 /* JOSH'S PAGE START */
 h1 {
   font-size: 3.5em;
   color: white;
-  padding-bottom: 5%;
-  border-bottom: 3px solid white;
+  padding-bottom: 3%;
+  
+  /* border-bottom: 3px solid white; */
   font-family: "Marcellus";
 }
 p.giPara {
@@ -190,6 +170,7 @@ p.giPara {
 }
 .mainSection {
   margin: 7% 7%;
+  padding-right: 50px;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -233,97 +214,129 @@ div > .otherTwo h2 {
 /* JOSH PAGE ENDING */
 
 
+
 /* Indy Start */
 
-body{
+body {
   position: relative;
   font-size: 1.5rem;
-  padding: .8rem 1.25rem;
+  padding: 0.8rem 1.25rem;
   margin-top: 2.75rem;
   margin-bottom: 1rem;
   box-sizing: border-box;
   width: 100%;
-  color: rgba(127	38	167	);
+  color: rgba(127 38 167);
 }
 
-section.container >form *{
+section.container > form * {
   display: flex;
   flex-direction: column;
-
 }
 
-input, select, textarea{
-width: 100%;
-padding: 12px; 
-border: .375rem solid rgba(127	38	167	);
-border-radius: 4px;
-box-sizing: border-box;
-margin-top: 6px;
-margin-bottom: 16px;
-resize: vertical;
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 0.375rem solid rgba(127 38 167);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-input[type=submit]{
-background-color: white;
-color: rgba(127	38	167	);
-padding: 12px 20px;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-font-size: 1.5rem;
+input[type="submit"] {
+  background-color: white;
+  color: rgba(127 38 167);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.5rem;
 }
 
-footer ul>li {
+footer ul > li {
   list-style: none;
   display: inline-block;
   flex-direction: row;
 }
 
 .footer-list {
-width: 50%;
-display: flex;
-justify-content: right;
-align-items: center;
-gap: 1rem;
-}   
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 1rem;
+}
 /* Indy Ending */
 
-#footer {
-  background-color: rgba(127 38 167);
-  height: 10em;
-  left: 0;
-  line-height: 1em;
 
-  top: 0;
-  width: 100%;
 
-  text-decoration: none;
+
+/* footer START */
+
+.footerContainer {
+  background: rgb(74, 36, 129);
+  background: linear-gradient(
+    180deg,
+    rgba(74, 36, 129, 1) 0%,
+    rgba(170, 73, 199, 1) 59%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  color: rgb(74, 36, 129);
+  padding-top: 20px;
 }
-.footerNavBar > * {
+.footerContent {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
+  text-align: center;
+}
+.footerContent img {
+  max-width: 5em;
+  height: auto;
+}
+.footerContent h3 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 3rem;
+  margin-bottom: 15px;
+}
+.footerContent p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socialLinks {
   list-style: none;
-  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;
 }
-.footerNavBar > ul * {
+.socialLinks li {
+  margin: 0 10px;
+}
+.socialLinks a {
   text-decoration: none;
-  font-family: "Marcellus";
-  margin: 5px 10px;
-  color: white;
-  clear: both;
+  color: #ffffff;
 }
-#footer li.footerSocials {
-  /* display: flex;
-    justify-content: flex-end;
-    flex-direction: column; */
-  text-align: right;
+.socialLinks a i {
+  font-size: 30px;
 }
-a.contactButton,
-a.donateButton {
-  background-color: rgba(127 38 167);
-  border-radius: 3px;
-  padding: 5px;
-  color: white;
-  text-decoration: none;
+.btmFooter {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
 }
+.btmFooter p {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+/* footer END */
