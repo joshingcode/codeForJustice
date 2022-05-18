@@ -31,7 +31,7 @@ footer {
   position: fixed;
   top: 0;
   width: 100%;
-  margin-bottom: 5%;
+
   text-decoration: none;
   color: rgba(127 38 167);
 }
@@ -62,11 +62,11 @@ a.donateButton {
         HOME   
 ************************** */
 
-.home {
+/* .home {
   background-color: #f9f9f9;
-}
+} */
 
-.titleHero {
+/* .titleHero {
   font-size: 75px;
   margin-bottom: 32px;
 }
@@ -76,24 +76,24 @@ a.donateButton {
   line-height: 1.6;
   margin-bottom: 48px;
   font-style: oblique;
-}
+} */
 
-.headerContainer {
+ .headerContainer {
   height: 75vh;
-  /* position: relative; */
+ 
   background: url(../images/heroImage.png);
   background-size: cover;
-  margin: 4em 4em;
+  margin: 2em 4em;
   /* border-radius: 30px; */
   box-shadow: 0px 10px 10px #251b26;
 }
 
 .mainContainer {
   width: 1200px;
-  position: absolute;
+  
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   text-align: center;
 }
 
@@ -115,7 +115,10 @@ a.donateButton {
   /* border-radius: 30px; */
   box-shadow: 0px 10px 10px #251b26;
 }
-
+section.aboutUsHome>img{
+    width: 45%;
+    margin-left: 25%;
+}
 .aboutUsHome h2 {
   font-size: 42px;
   margin-bottom: 48px;
@@ -158,6 +161,12 @@ a.donateButton {
   height: 250px;
   /* border-radius: 20px; */
 }
+
+
+
+
+
+
 /* JOSH'S PAGE START */
 h1 {
   font-size: 3.5em;
