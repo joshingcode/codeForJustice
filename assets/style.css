@@ -80,7 +80,7 @@ a.donateButton {
     height: 75vh;
     margin-top: 3em;
     padding-top: 1em;
-    background: url(../images/heroImage.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)), url(../Images/heroImage.png);
     background-size: cover;
     box-shadow: 0px 10px 10px #251b26;
 }
@@ -90,7 +90,7 @@ a.donateButton {
 
     left: 50%;
     top: 50%;
-    transform: translate(8%, 20%);
+    transform: translate(8%, 35%);
     text-align: center;
 
 }
@@ -111,7 +111,7 @@ a.donateButton {
             rgba(255, 255, 255, 1) 0%,
             rgba(170, 73, 199, 1) 59%,
             rgba(74, 36, 129, 1) 100%);
-    margin: 10em 14em;
+    margin: 5em 15em 0em 15em;
     box-shadow: 0px 10px 10px #251b26;
 }
 
@@ -134,10 +134,15 @@ a.donateButton {
 
 .aboutUsHome p {
     text-align: center;
+    font-size: 15px;
 }
 
 .resourcesHome {
-    padding: 96px 25px;
+    padding: 75px 25px;
+}
+
+.resourcesInfo {
+    margin: 0em 15em;
 }
 
 .resourcesItems {
@@ -183,7 +188,19 @@ a.donateButton {
     padding: 15px 20px 0px 20px
 }
 
-
+.buttonHome:link,
+.buttonHome:visited {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #360d49;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin: 3em 8em 0em
+}
 
 
 
