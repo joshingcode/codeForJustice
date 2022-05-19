@@ -11,6 +11,7 @@ li,
 main,
 section,
 footer {
+
     margin: 0;
     padding: 0;
     border: 0;
@@ -18,11 +19,13 @@ footer {
     font: inherit;
     vertical-align: baseline;
     font-family: "Marcellus";
+
 }
 
 /* NAV BAR STYLE */
 
 #header {
+
     background-color: white;
     height: 3em;
     left: 0;
@@ -42,6 +45,7 @@ footer {
     flex-direction: row;
     list-style: none;
     margin: 10px 0;
+
 }
 
 .navBar>ul * {
@@ -66,6 +70,7 @@ a.donateButton {
         HOME   BY ABRAHAM
 ************************** */
 
+
 .home {
     background-image: linear-gradient(to bottom, #ffffff, #e7c6ff);
     padding
@@ -87,6 +92,7 @@ a.donateButton {
     top: 50%;
     transform: translate(8%, 20%);
     text-align: center;
+
 }
 
 .mainContainer img {
@@ -95,6 +101,7 @@ a.donateButton {
 }
 
 .aboutUsHome {
+
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     color: #ffffff;
@@ -111,6 +118,7 @@ a.donateButton {
 .aboutUsHome img:nth-child(1) {
     grid-row: 1/3;
     align-self: center;
+
 }
 
 .aboutUsHome img {
@@ -186,6 +194,7 @@ h1 {
     padding-bottom: 5%;
     border-bottom: 3px solid white;
     font-family: "Marcellus";
+
 }
 
 p.giPara {
@@ -204,10 +213,12 @@ p.giPara {
 }
 
 .mainSection {
+
     margin: 7% 7%;
     position: absolute;
     display: flex;
     flex-direction: column;
+
 }
 
 .wrapper {
@@ -251,6 +262,7 @@ div>.otherTwo h2 {
 /* JOSH PAGE ENDING */
 
 
+
 /* Indy Start */
 
 
@@ -269,11 +281,13 @@ section.container>form * {
     display: flex;
     flex-direction: column;
 
+
 }
 
 input,
 select,
 textarea {
+
     width: 100%;
     padding: 12px;
     border: .375rem solid rgba(127 38 167);
