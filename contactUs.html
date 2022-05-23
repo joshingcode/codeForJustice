@@ -72,8 +72,15 @@
         
        
     
-    <a id="submit" class="contactButton submitButton"> Submit </a>
-    <span class="thankYou"></span>
+        <a id="submit" class="contactButton submitButton" onclick="openForm()"> Submit </a>
+      <span class="thankYou"></span>
+      <div class="form-popup" id="myForm">
+          <section class="formContainer">
+              <h3>Thank You</h3>
+              <p>Someone from the Cardinal Group team will be contacting you within 24-48 business hours</p>
+              <a href="index.html" onclick="closeForm()"><img src="images/image-1.png" style = "width: 15%;"alt="imgLogo"></a>
+          </section>
+      </div>
 </section>
      <!-- Footer -->
      <footer class="footerContainer">

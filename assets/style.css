@@ -81,7 +81,7 @@ a.donateButton {
 }
 
 .headerContainer {
-    height:100vh;
+    height:75vh;
     margin-top: 3em;
     padding-top: 1em;
     background-image: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)), url(../Images/heroImage.png);
@@ -173,7 +173,7 @@ a.donateButton {
     align-self: center;
     justify-self: center;
     height: 700px;
-    width: 65vh;
+    width: 50vh;
 }
 
 .rLinks h3 {
@@ -248,9 +248,9 @@ body.aboutBody{
     border-left: solid;
     width: 33%;
 }
-.contentSection p{
+/* .contentSection p{
 
-}
+} */
 .ourMission,.values,.vision{
     padding: 10px;
     text-align: center;
@@ -353,11 +353,13 @@ div.contentSection h2{
     color: white;
 }
 main>section.aboutUsHomeAW{
-    height: 75vh;
+    height: 65vh;
     background: url(../images/awarenessimg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: #7f26a7;
+    text-decoration: bold;
 
 }
 .aboutUsHomeAW h1{
@@ -688,8 +690,40 @@ textarea {
     margin: 25px;
     font-size: 20px;
 }
-
-
+.form-popup {
+    display: none;
+    /* position: fixed; */
+    bottom: 0;
+    right: 15px;
+      
+      position:absolute;
+      z-index:999;
+      padding:10px;
+      margin: 250px;
+    text-align: center;
+  }
+  
+  /* Add styles to the form container */
+  .formContainer {
+      height: 50vh;
+    color:#e7c6ff ;
+    padding: 10px;
+    background: rgb(74, 36, 129);
+      background: linear-gradient(180deg,
+              rgba(74, 36, 129, 1) 0%,
+              rgba(170, 73, 199, 1) 59%,
+              rgba(255, 255, 255, 1) 100%);
+  }
+  .formContainer h3{
+      font-size: 2em;
+  }
+  .formContainer p{
+      font-size: 1em;
+      padding: 10px 10px;
+  }
+.formContainer img{
+    margin: 20px 0 ;
+}
 /* Indy Ending */
 
 
