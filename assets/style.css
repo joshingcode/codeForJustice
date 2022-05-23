@@ -283,9 +283,10 @@ div>.otherTwo h2 {
 
 
 .bodyContact {
+    background-image: linear-gradient(to bottom, #ffffff, #e7c6ff);
     position: relative;
     font-size: 1.5rem;
-    padding: .8rem 1.25rem;
+    padding: 1.5rem 1.25rem;
     margin-top: 2.75rem;
     margin-bottom: 1rem;
     box-sizing: border-box;
@@ -306,7 +307,7 @@ textarea {
 
     width: 100%;
     padding: 12px;
-    border: .375rem solid rgba(127 38 167);
+    border: .175rem solid rgba(127 38 167);
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -315,8 +316,8 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: white;
-    color: rgba(127 38 167);
+    background-color: rgba(127 38 167);
+    color:white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
