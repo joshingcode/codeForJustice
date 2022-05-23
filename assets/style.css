@@ -30,7 +30,7 @@ footer {
     height: 3em;
     left: 0;
     line-height: 1.5em;
-    padding: 0 1.25em;
+    padding: 0 0em;
     position: fixed;
     top: 0;
     width: 100%;
@@ -44,7 +44,7 @@ footer {
     justify-content: space-around;
     flex-direction: row;
     list-style: none;
-    margin: 10px 0;
+    margin-top: 10px ;
 
 }
 
@@ -63,7 +63,11 @@ a.donateButton {
     color: white;
     text-decoration: none;
 }
-
+.progress-bar {
+    height: 6px;
+    background: rgba(127 38 167);
+    width: 0%;
+  }
 /* NAV BAR STYLE */
 
 /* **************************
@@ -77,7 +81,7 @@ a.donateButton {
 }
 
 .headerContainer {
-    height: 75vh;
+    height:100vh;
     margin-top: 3em;
     padding-top: 1em;
     background-image: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)), url(../Images/heroImage.png);
@@ -169,7 +173,7 @@ a.donateButton {
     align-self: center;
     justify-self: center;
     height: 700px;
-    width: 45vh;
+    width: 65vh;
 }
 
 .rLinks h3 {
@@ -199,14 +203,347 @@ a.donateButton {
     text-align: center;
     padding: 15px 15px;
     border-radius: 10px;
-    margin: 3em 8em 0em
+    margin: auto
+}
+/* ABE END */
+
+/* DANTE START */
+/* About us page by Dante */
+body.aboutBody{
+    background: linear-gradient(to bottom right ,#7f26a7, #996FD6);
+    color: #F3EAF9;
+    
+  }
+.aboutUs{
+    text-align: center;
+    margin-top: 20px;
+    margin: 5em;
+    padding: 1em;
+    border: solid;
+    height: 75vh;
+}
+.aboutUs h1{
+    font-size: 4em;
+}
+.aboutUs p{
+    padding: 2% 20%;
+    font-size: 1.5em;
+    }
+.contentSection {
+    display: flex;
+    flex-direction: row;
+    padding: 3em;
+    margin: 3em;
+    background-color: #F3EAF9;
+    color: #7f26a7;
+}
+.contentSection section.ourMission {
+
+    padding: 10px;
+    background-color: #F3EAF9;
+    width: 33%;
 }
 
+.contentSection section.values,.contentSection section.vision{
+    border-left: solid;
+    width: 33%;
+}
+.contentSection p{
 
+}
+.ourMission,.values,.vision{
+    padding: 10px;
+    text-align: center;
+    
+}
+
+div.contentSection h2{
+    font-size: 40px;
+}
+
+.aboutfooterContainer {
+    background: #F3EAF9;
+    color: #fff;
+    padding-top: 20px;
+}
+.aboutfooterContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.aboutfooterContent img {
+    max-width: 5em;
+    height: auto;
+}
+.aboutfooterContent h3 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 3rem;
+    margin-bottom: 15px;
+}
+.meetUs{
+    background:#F3EAF9 ;
+    color:#7f26a7 ;
+    text-align: center;
+   margin: 3em 3em;
+   padding: 3em 3em;
+    font-size: 25px;
+    font-style: bold;
+}
+.meetUs ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.meetUs ul>li{
+    list-style: none;
+    width: 20%;
+    font-style: bold;
+    font-size: 20px;
+
+}
+.meetUs ul>li span{
+    font-style: italic;
+    font-size: 15px;
+
+}
+.aboutfooterContent p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.aboutsocialLinks {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+.aboutsocialLinks li {
+    margin: 0 10px;
+}
+.aboutsocialLinks a {
+    text-decoration: none;
+    color: #996FD6;
+}
+.aboutsocialLinks a i {
+    font-size: 30px;
+}
+.aboutbtmFooter {
+    background-color: #996FD6;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.aboutbtmFooter p {
+    font-size: 12px;
+    text-transform: capitalize;
+} 
+
+/* Dante Ending */
+
+/* MICAH PAGE START (AWARENESS) */
+#htmlColor {
+    background-image: linear-gradient(to bottom, #ffffff, #e7c6ff);
+    color: white;
+}
+main>section.aboutUsHomeAW{
+    height: 75vh;
+    background: url(../images/awarenessimg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #7f26a7;
+
+}
+.aboutUsHomeAW h1{
+  text-align: center;
+  color: #7f26a7;
+  padding: .75em 0;
+
+}
+.aboutUsHomeAW p{
+    text-align: center;
+    color: black;
+    padding: 0em 10em;
+    
+  
+  }
+
+.awarenessImgContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .awarenessImg {
+    max-width: 100%;
+    max-height: 100%;
+    height: 500px;
+    width: 1300px;
+  }
+
+.sectionP1Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionP1 {
+  text-align: center;
+  width: 50%;
+  color: black;
+}
+
+/* banner styling */
+.section-m1 {
+  margin: -4px 0;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to bottom,
+            rgb(170, 73, 199, 1) 2%,
+            rgb(74, 36, 129, 1) 54%,
+            rgb(23, 10, 39));
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  margin: 50px 0;
+}
+
+#banner article {
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+  border: 2px solid white;
+}
+
+#banner h2 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+#banner button {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+
+#banner button:hover {
+  background-color: #884EA0;
+  color: white;
+}
+
+.bannerContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+article {
+  width: 30%;
+  font-size: 16px;
+}
+
+.articleH1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 0;
+  margin: 10px;
+  font-size: 27px;
+}
+
+.articleTextContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.articleP {
+  width: 90%;
+  font-size: 16px;
+  text-align: center;
+  padding: 5px;
+  margin: 3px;
+}
+
+/* antihuman section styling */
+.antihumanContainer {
+  text-align: center;
+  color: black;
+}
+
+.antihumanContainer .antihumanDivContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+
+.antihumanContainer .antihumanBox {
+  width: 13%;
+  min-width: 250px;
+  padding: 50px 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px;
+  transition: 0.2s ease;
+}
+
+.antihumanP {
+  font-size: 16px;
+  text-align: left;
+}
+
+#learnMoreLink1 {
+  margin-top: 50px;
+}
+
+#learnMoreLink2 {
+  margin-top: 10px;
+}
+
+#learnMoreLink3 {
+  margin-top: 70px;
+}
+
+#learnMoreLink4 {
+  margin-top: 40px;
+}
+
+.learnMoreLink a {
+  text-decoration: none;
+  color: #D6EAF8; 
+}
+
+/* MICAH PAGE ENDING */
 
 /* JOSH'S PAGE START */
 h1 {
-    font-size: 3.5em;
+    font-size: 2.5em;
     color: white;
   
     font-family: "Marcellus";
@@ -215,8 +552,9 @@ h1 {
 
 p.giPara {
     font-size: 1em;
-    color: white;
+    color: #F3EAF9 ;
     font-family: "Marcellus";
+
 }
 
 #giWrapper {
@@ -285,15 +623,40 @@ div>.otherTwo h2 {
 .bodyContact {
     background-image: linear-gradient(to bottom, #ffffff, #e7c6ff);
     position: relative;
-    font-size: 1.5rem;
-    padding: 1.5rem 1.25rem;
-    margin-top: 2.75rem;
+
+    margin-top: 2.5rem;
     margin-bottom: 1rem;
     box-sizing: border-box;
     width: 100%;
     color: rgba(127 38 167);
 }
-
+.contactMain{
+    display: flex;
+    flex-direction: column;
+    
+    height: 75vh;
+    background: rgb(74, 36, 129);
+    background: linear-gradient(180deg,
+            rgba(74, 36, 129, 1) 0%,
+            rgba(170, 73, 199, 1) 59%,
+            rgba(255, 255, 255, 1) 100%);
+    color: #e7c6ff;
+    font-size: 20px;
+    text-align: center;
+}
+.contactMain>h1{
+    padding-top: 45px;
+    text-decoration: bold ;
+    
+}
+.contactMain>h1 p{
+    padding: 0 45px;
+    
+}
+section.container{
+    padding: 0 3em;
+    margin-bottom: 20px;
+}
 section.container>form * {
     display: flex;
     flex-direction: column;
@@ -315,14 +678,15 @@ textarea {
     resize: vertical;
 }
 
-input[type=submit] {
+
+#submit.contactButton.submitButton {
     background-color: rgba(127 38 167);
-    color:white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1.5rem;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+    font-size: 20px;
 }
 
 

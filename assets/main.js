@@ -1,8 +1,8 @@
-document.querySelector('#submit').addEventListener('click',finish())
+window.onscroll = function() {myFunction()};
 
-document.querySelector('.thankYou').innerHTML=" "
-
-function finish(){
-    output="Thank You for contacting us someone from Cardinal Group reach out to you within 24 busniess hours."
-    document.querySelector('.thankYou').innerText=output
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
 }
